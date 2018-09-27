@@ -1,21 +1,19 @@
-uuid: 455ed87b-f4b4-40f1-a009-4c4d5cfadff2
+uuid: a6cba9c4-d64f-4625-ad5e-c2797b0ddb9c
 langcode: ru
 status: true
 dependencies:
   config:
     - field.storage.node.field_tags
-    - node.type.article
+    - node.type.blog_article
     - taxonomy.vocabulary.tags
-_core:
-  default_config_hash: QdUgf_beeoaPiyKorFv0q1fcJpWH_uZTqe_xoVJacrw
-id: node.article.field_tags
+id: node.blog_article.field_tags
 field_name: field_tags
 entity_type: node
-bundle: article
+bundle: blog_article
 label: Теги
-description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -24,6 +22,8 @@ settings:
     target_bundles:
       tags: tags
     sort:
-      field: _none
-    auto_create: true
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

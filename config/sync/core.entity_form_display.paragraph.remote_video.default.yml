@@ -1,0 +1,33 @@
+uuid: 7bf41f2e-0e3f-4b2e-9e69-1e0fc1b9757b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.remote_video.field_remote_video
+    - field.field.paragraph.remote_video.field_title
+    - paragraphs.paragraphs_type.remote_video
+  module:
+    - media_library
+id: paragraph.remote_video.default
+targetEntityType: paragraph
+bundle: remote_video
+mode: default
+content:
+  field_remote_video:
+    type: media_library_widget
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

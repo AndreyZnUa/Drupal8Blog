@@ -1,0 +1,11 @@
+uuid: 810a65aa-9578-43ef-81c0-9938ded999d2
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:320a34bf-02e5-4d41-91b7-910b6c265289'
+id: remote_gallery_videos
+label: 'Галерея видео'
+icon_uuid: 320a34bf-02e5-4d41-91b7-910b6c265289
+description: ''
+behavior_plugins: {  }

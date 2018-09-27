@@ -1,0 +1,11 @@
+uuid: f7190919-e5ee-4bb3-903b-b80055a7becf
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:90ca5296-6d7a-4382-8bf6-38d9248dde1b'
+id: code
+label: Код
+icon_uuid: 90ca5296-6d7a-4382-8bf6-38d9248dde1b
+description: ''
+behavior_plugins: {  }

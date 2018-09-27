@@ -1,0 +1,11 @@
+uuid: 7674e3d7-66ad-45d7-9355-f82ee35db7a5
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:a58fa50e-00bc-456a-8397-22c102f94658'
+id: image_and_text
+label: 'Изображение с текстом'
+icon_uuid: a58fa50e-00bc-456a-8397-22c102f94658
+description: ''
+behavior_plugins: {  }

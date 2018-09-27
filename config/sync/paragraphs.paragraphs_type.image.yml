@@ -1,0 +1,11 @@
+uuid: 32601e38-bc16-43b6-8312-52902b53fd1f
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:90cb3d3e-4223-465c-90de-32bc0741377d'
+id: image
+label: Изображение
+icon_uuid: 90cb3d3e-4223-465c-90de-32bc0741377d
+description: ''
+behavior_plugins: {  }

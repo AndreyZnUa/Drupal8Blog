@@ -1,0 +1,28 @@
+uuid: 0759d8da-fec8-4fa3-8e9c-fce3fc1416c2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_remote_gallery_videos
+    - media.type.remote_video
+    - paragraphs.paragraphs_type.remote_gallery_videos
+id: paragraph.remote_gallery_videos.field_remote_gallery_videos
+field_name: field_remote_gallery_videos
+entity_type: paragraph
+bundle: remote_gallery_videos
+label: 'Внешние видео'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

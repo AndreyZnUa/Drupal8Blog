@@ -1,0 +1,31 @@
+uuid: 7818d885-1025-4a82-af22-4b6bfc028ba2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.remote_gallery_videos.field_remote_gallery_videos
+    - field.field.paragraph.remote_gallery_videos.field_title
+    - paragraphs.paragraphs_type.remote_gallery_videos
+id: paragraph.remote_gallery_videos.default
+targetEntityType: paragraph
+bundle: remote_gallery_videos
+mode: default
+content:
+  field_remote_gallery_videos:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

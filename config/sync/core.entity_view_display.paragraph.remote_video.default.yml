@@ -1,0 +1,31 @@
+uuid: ee4c17c1-4151-45b5-94ff-b07bb1302998
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.remote_video.field_remote_video
+    - field.field.paragraph.remote_video.field_title
+    - paragraphs.paragraphs_type.remote_video
+id: paragraph.remote_video.default
+targetEntityType: paragraph
+bundle: remote_video
+mode: default
+content:
+  field_remote_video:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
