@@ -1,0 +1,14 @@
+uuid: 99a71c4b-d05b-408b-90d2-0f0f64d59b56
+name: d8blog
+mail: andrey.zn.ua@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

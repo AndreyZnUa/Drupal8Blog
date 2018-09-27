@@ -1,0 +1,17 @@
+uuid: b244dcd7-8b69-49e1-89d4-12a8c80c518f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - filter.format.markdown
+  module:
+    - codemirror_editor
+format: markdown
+editor: codemirror_editor
+settings:
+  toolbar: true
+  lineNumbers: false
+  foldGutter: false
+  autoCloseTags: true
+  styleActiveLine: false
+image_upload: {  }

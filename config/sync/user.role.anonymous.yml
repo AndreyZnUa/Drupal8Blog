@@ -1,0 +1,18 @@
+uuid: ffe71e50-b7aa-4caf-9f52-ab742e2fb521
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format markdown'
+  - 'use text format restricted_html'
+  - 'view media'
