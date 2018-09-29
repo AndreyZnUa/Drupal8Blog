@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:a58fa50e-00bc-456a-8397-22c102f94658'
+  module:
+    - blog_paragraphs
 id: image_and_text
 label: 'Изображение с текстом'
 icon_uuid: a58fa50e-00bc-456a-8397-22c102f94658
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraphs_image_and_text:
+    enabled: true
