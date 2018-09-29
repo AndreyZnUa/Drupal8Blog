@@ -59,7 +59,7 @@ class ImageAndTextBehavior extends ParagraphsBehaviorBase {
     }
 
     $build['field_image'][0]['#image_style'] = $image_style;
-    dump($build);
+    //dump($build);
   }
 
   /**

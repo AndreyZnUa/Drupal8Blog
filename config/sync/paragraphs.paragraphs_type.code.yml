@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:90ca5296-6d7a-4382-8bf6-38d9248dde1b'
+  module:
+    - blog_paragraphs
 id: code
 label: Код
 icon_uuid: 90ca5296-6d7a-4382-8bf6-38d9248dde1b
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraphs_paragraph_class:
+    enabled: true

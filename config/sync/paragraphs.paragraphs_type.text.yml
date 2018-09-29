@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:e156dd04-0a7a-44d4-b738-763603bc44ab'
+  module:
+    - blog_paragraphs
 id: text
 label: Текст
 icon_uuid: e156dd04-0a7a-44d4-b738-763603bc44ab
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraphs_paragraph_class:
+    enabled: true

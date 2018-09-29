@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a267c690d423251c6f032b55ca4be08a",
+    "content-hash": "43ae2014b9076e464e70c458df56f579",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3599,6 +3599,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Support Media and Entity References": "https://www.drupal.org/files/issues/2018-09-24/2977943-33-media-support.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

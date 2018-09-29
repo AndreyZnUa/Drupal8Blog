@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:9a390f4c-af3a-4ee0-b2ce-5ba2d057e12c'
+  module:
+    - blog_paragraphs
 id: remote_video
 label: 'Внешнее видео'
 icon_uuid: 9a390f4c-af3a-4ee0-b2ce-5ba2d057e12c
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraphs_paragraph_class:
+    enabled: true

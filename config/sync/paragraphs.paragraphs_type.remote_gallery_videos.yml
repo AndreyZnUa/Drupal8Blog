@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:320a34bf-02e5-4d41-91b7-910b6c265289'
+  module:
+    - blog_paragraphs
 id: remote_gallery_videos
 label: 'Галерея видео'
 icon_uuid: 320a34bf-02e5-4d41-91b7-910b6c265289
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraphs_paragraph_class:
+    enabled: true

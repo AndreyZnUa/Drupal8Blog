@@ -13,3 +13,5 @@ description: ''
 behavior_plugins:
   blog_paragraphs_gallery:
     enabled: true
+  blog_paragraphs_paragraph_class:
+    enabled: true

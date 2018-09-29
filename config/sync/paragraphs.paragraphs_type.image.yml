@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:90cb3d3e-4223-465c-90de-32bc0741377d'
+  module:
+    - blog_paragraphs
 id: image
 label: Изображение
 icon_uuid: 90cb3d3e-4223-465c-90de-32bc0741377d
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraphs_paragraph_class:
+    enabled: true
