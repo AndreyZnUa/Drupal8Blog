@@ -15,3 +15,7 @@ behavior_plugins:
     enabled: true
   blog_paragraphs_paragraph_style:
     enabled: true
+  blog_paragraphs_paragraph_title:
+    enabled: true
+  blog_paragraphs_remote_video:
+    enabled: true
