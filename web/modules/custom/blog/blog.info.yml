@@ -1,0 +1,5 @@
+type: module
+name: Blog
+description: Core module for custom code, hooks and functions
+core: 8.x
+package: blog
