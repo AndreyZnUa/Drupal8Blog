@@ -1,20 +1,17 @@
-uuid: e8b4ebac-9dc9-4ccc-a4c8-56f17b7a6837
+uuid: 1f829dd7-a22a-4647-8c0c-811430db336f
 langcode: ru
 status: true
 dependencies:
   module:
-    - file
+    - media
     - node
 id: node.field_attachments
 field_name: field_attachments
 entity_type: node
-type: file
+type: entity_reference
 settings:
-  display_field: true
-  display_default: false
-  uri_scheme: public
-  target_type: file
-module: file
+  target_type: media
+module: core
 locked: false
 cardinality: -1
 translatable: true

@@ -9,13 +9,11 @@ dependencies:
     - field.field.node.blog_article.field_image
     - field.field.node.blog_article.field_paragraphs
     - field.field.node.blog_article.field_tags
-    - image.style.thumbnail
     - node.type.blog_article
   module:
     - comment
     - field_group
-    - file
-    - image
+    - media_library
     - paragraphs
     - path
     - scheduler
@@ -97,11 +95,10 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_attachments:
-    weight: 125
-    settings:
-      progress_indicator: throbber
+    type: media_library_widget
+    weight: 128
+    settings: {  }
     third_party_settings: {  }
-    type: file_generic
     region: content
   field_comments:
     weight: 126
@@ -110,12 +107,10 @@ content:
     type: comment_default
     region: content
   field_image:
-    weight: 124
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+    type: media_library_widget
+    weight: 127
+    settings: {  }
     third_party_settings: {  }
-    type: image_image
     region: content
   field_paragraphs:
     weight: 123
